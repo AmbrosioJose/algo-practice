@@ -8,6 +8,7 @@ fun canConstruct(target: String, wordBank: List<String>, map: MutableMap<String,
         val subStr : String = target.substring(0, word.length)
         val remainder : String = target.substringAfter(subStr) // probably faster when using index but this is readable
         if(subStr == word && canConstruct(remainder, wordBank, map)){
+            println("target $target substr $subStr")
             map[target] = true
             return map.getValue(target)
         }
@@ -20,6 +21,6 @@ fun canConstruct(target: String, wordBank: List<String>, map: MutableMap<String,
 fun main(args: Array<String>){
     println(canConstruct("abcdef", listOf("ab", "abc", "cd", "def", "abcd")))
     println(canConstruct("skateboard", listOf("bo", "rd", "ate", "t", "ska", "sk", "boar")))
-    println(canConstruct("enterapotenpot", listOf("a", "p", "ent", "enter", "ot", "o", "t")))
+    println(canConstruct("enterapotentpot", listOf("a", "p", "ent", "enter", "ot", "o", "t")))
     println(canConstruct("eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeef", listOf("e", "ee", "eee", "eeee", "eeeee")))
 }
