@@ -7,7 +7,7 @@ Practicing Kotlin and dynamic algorithms at the same time
 - [x] Best sum
 - [x] Can construct
 - [x] Count construct
-- [ ] How construct
+- [x] How construct
 - [x] Max Product Cutting
 - [x] Minimum Fountain
 - [x] Fibonacci Numbers
