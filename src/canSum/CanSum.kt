@@ -1,4 +1,4 @@
-import java.security.KeyStore
+package canSum
 
 /*
 *  Given a number and a list of numbers determine whether the target number can be obtained
@@ -27,7 +27,7 @@ fun canSum(targetSum: Int, numbers:  List<Int>, sumMap: MutableMap<Int, Boolean>
 }
 
 fun main(args: Array<String>){
-    println(canSum(7, listOf(2,3)))
+    println(canSum(7, listOf(2, 3)))
     println(canSum(7, listOf(5, 3, 4, 7)))
     println(canSum(8, listOf(2, 3, 5)))
     println(canSum(300, listOf(7, 14)))

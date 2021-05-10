@@ -1,3 +1,5 @@
+package howSum
+
 // Given a target number and a list of numbers return a list of numbers that sum up to the target number
 
 fun howSum(targetSum: Int, numbers: List<Int>, sumMap: MutableMap<Int, MutableList<Int>?> = mutableMapOf()) : MutableList<Int>?{

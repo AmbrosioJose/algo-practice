@@ -1,4 +1,4 @@
-# dynamic-algo-practice
+# H1 Dynamic Algorithm Practice
 Practicing Kotlin and dynamic algorithms at the same time
 
 - [x] Bellman-Ford
@@ -11,4 +11,8 @@ Practicing Kotlin and dynamic algorithms at the same time
 - [x] Max Product Cutting
 - [x] Minimum Fountain
 - [x] Fibonacci Numbers
-- [ ] Knapsack
+- [ ] knapsack
+
+# H3 links:
+[Coding conventions] (https://kotlinlang.org/docs/coding-conventions.html#function-names)
+[Markdown] (https://www.markdownguide.org/cheat-sheet/)

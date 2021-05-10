@@ -1,3 +1,5 @@
+package bestSum
+
 // Given the target number and a list of numbers find the smallest list of numbers that sum up
 // to the target number. If two are of equal length either is fine
 
