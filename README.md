@@ -3,7 +3,7 @@ Practicing Kotlin and dynamic algorithms at the same time
 
 - [x] Bellman-Ford
 - [x] Can sum(memoization + tabulation)
-- [x] How sum (memoization)
+- [x] How sum (memoization + tabulation)
 - [x] Best sum (memoization)
 - [x] Can construct
 - [x] Count construct

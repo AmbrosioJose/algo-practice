@@ -70,7 +70,7 @@ fun isNegativeWeightCycle(graph: Graph, src: Int): Boolean {
         val v: Int = graph.edges[i].dest
         val weight: Int = graph.edges[i].weight
 
-        if(dist[u] != Integer.MAX_VALUE && dist[u] + weight < dist[v])
+        if(dist[u] != Int.MAX_VALUE && dist[u] + weight < dist[v])
             return true
     }
 
