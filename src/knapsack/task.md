@@ -5,7 +5,7 @@ associated with n items respectively. Also given an integer W which represents k
 value subset of val[] such that sum of the weights of this subset is smaller than or equal to W. You cannot break an item, 
 either pick the complete item or don’t pick it (0-1 property).
 
-<center><img src="knapsack-problem.png" height="200px"/></center>
+![Knapsack diagram](knapsack_problem.png)
 
 **Method 1**
     : Recursion by Brute-Force algorithm OR Exhaustive Search.

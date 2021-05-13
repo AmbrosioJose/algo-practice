@@ -15,4 +15,4 @@ Practicing Kotlin and dynamic algorithms at the same time
 
 # H3 links:
 [Coding conventions] (https://kotlinlang.org/docs/coding-conventions.html#function-names)
-[Markdown] (https://www.markdownguide.org/cheat-sheet/)
+[Markdown] (https://guides.github.com/features/mastering-markdown/)

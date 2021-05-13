@@ -1,4 +1,4 @@
-// Given a target string and an array of strings find the how many possible different ways the
+package countConstruct// Given a target string and an array of strings find the how many possible different ways the
 // target string can be constructed with the array of strings
 
 fun countConstruct(target: String, wordBank: List<String>, map: MutableMap<String, Int> = mutableMapOf()) : Int{
