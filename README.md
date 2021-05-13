@@ -5,7 +5,7 @@ Practicing Kotlin and dynamic algorithms at the same time
 - [x] Can sum(memoization + tabulation)
 - [x] How sum (memoization + tabulation)
 - [x] Best sum (memoization + tabulation)
-- [x] Can construct
+- [x] Can construct (memoization + tabulation)
 - [x] Count construct
 - [x] How construct
 - [x] Max Product Cutting

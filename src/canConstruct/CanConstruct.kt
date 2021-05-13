@@ -1,4 +1,4 @@
-
+package canConstruct
 fun canConstruct(target: String, wordBank: List<String>, map: MutableMap<String, Boolean> = mutableMapOf()): Boolean{
     if(map.containsKey(target)) return map.getValue(target)
     if(target.isBlank()) return true
