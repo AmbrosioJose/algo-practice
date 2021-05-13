@@ -1,4 +1,4 @@
-# H1 Dynamic Algorithm Practice
+# Dynamic Algorithm Practice
 Practicing Kotlin and dynamic algorithms at the same time
 
 - [x] Bellman-Ford
@@ -13,6 +13,9 @@ Practicing Kotlin and dynamic algorithms at the same time
 - [x] Fibonacci Numbers
 - [ ] Knapsack
 
-# H3 links:
-[Coding conventions] (https://kotlinlang.org/docs/coding-conventions.html#function-names)
-[Markdown] (https://guides.github.com/features/mastering-markdown/)
+### References:
+- [Coding conventions](https://kotlinlang.org/docs/coding-conventions.html#function-names)
+- [Markdown](https://guides.github.com/features/mastering-markdown/)
+
+
+:potato:
