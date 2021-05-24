@@ -1,6 +1,7 @@
-# Dynamic Algorithm Practice
+# Algorithm Practice
 Practicing Kotlin and dynamic algorithms at the same time
 
+## Dynamic 
 - [x] Bellman-Ford
 - [x] Can sum(memoization + tabulation)
 - [x] How sum (memoization + tabulation)
@@ -12,6 +13,8 @@ Practicing Kotlin and dynamic algorithms at the same time
 - [x] Minimum Fountain
 - [x] Fibonacci Numbers
 - [ ] Knapsack
+
+## Heap
 
 ### References:
 - [Kotlin coding conventions](https://kotlinlang.org/docs/coding-conventions.html#function-names)
