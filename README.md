@@ -16,7 +16,7 @@ Practicing Kotlin and dynamic algorithms at the same time
 
 
 ## Heap
-- [x] [Kth largest number](src/kthLargestNumber/KthLargestNumber.kt)
+- [x] [Kth largest number](src/kthLargestNum/KthLargestNumber.kt)
 
 ### References:
 - [Kotlin coding conventions](https://kotlinlang.org/docs/coding-conventions.html#function-names)
