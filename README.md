@@ -2,20 +2,21 @@
 Practicing Kotlin and dynamic algorithms at the same time
 
 ## Dynamic 
-- [x] Bellman-Ford
-- [x] Can sum(memoization + tabulation)
-- [x] How sum (memoization + tabulation)
-- [x] Best sum (memoization + tabulation)
-- [x] Can construct (memoization + tabulation)
-- [x] Count construct (memoization + tabulation)
-- [x] How construct
-- [x] Max Product Cutting
-- [x] Minimum Fountain
-- [x] Fibonacci Numbers
+- [x] [Bellman-Ford](src/bellmanFord/Bellman-Ford.kt)
+- [x] Can sum ([memoization](src/canSum/CanSum.kt) + [tabulation](src/canSum/CanSumTabu.kt))
+- [x] How sum ([memoization](src/howSum/HowSum.kt) + [tabulation](src/howSum/HowSumTabulation.kt))
+- [x] Best sum ([memoization](src/bestSum/BestSum.kt) + [tabulation](src/bestSum/BestSumTabulation.kt))
+- [x] Can construct ([memoization](src/canConstruct/CanConstruct.kt) + [tabulation](src/canConstruct/CanConstructTabu.kt))
+- [x] Count construct ([memoization](src/countConstruct/CountConstruct.kt) + [tabulation](src/countConstruct/CountConstructTabu.kt))
+- [x] [How construct](src/howConstruct/HowConstruct.kt)
+- [x] [Max Product Cutting](src/maxProductCutting/MaxProductCutting.kt)
+- [x] [Minimum Fountain](src/minimumFountains/MinimumFountains.kt)
+- [x] [Fibonacci Numbers](src/fibonacciNumbers/FibonacciNumbers.kt)
 - [ ] [Knapsack](src/knapsack/Knapsack.kt)
-- [x] Kth largest number
+
 
 ## Heap
+- [x] [Kth largest number](src/kthLargestNumber/KthLargestNumber.kt)
 
 ### References:
 - [Kotlin coding conventions](https://kotlinlang.org/docs/coding-conventions.html#function-names)
