@@ -12,7 +12,7 @@ Practicing Kotlin and dynamic algorithms at the same time
 - [x] Max Product Cutting
 - [x] Minimum Fountain
 - [x] Fibonacci Numbers
-- [ ] [Knapsack](knapsack/Knapsack.kt)
+- [ ] [Knapsack](src/knapsack/Knapsack.kt)
 - [x] Kth largest number
 
 ## Heap
