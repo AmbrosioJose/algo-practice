@@ -27,6 +27,8 @@ class MaxHeap(capacity: Int) {
     }
 
     // Ensure Extra capacity (Can be used when the length of table is a variable)
+    // This can be used when the data length is dynamic. Basically doubling the size of the array if needed. I
+    // If the length of the data is known then this function is not necessary
     private fun ensureExtraCapacity(){}
 
     // peek
