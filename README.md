@@ -19,6 +19,13 @@ Practicing Kotlin and dynamic algorithms at the same time
 - [x] [Kth largest number](src/kthLargestNum/KthLargestNumber.kt)
 - [x] [Heap sort](src/heapSort/HeapSort.kt)
 
+## BFS
+- [x] [Breadth First Search](src/bfs/BreadthFirstSearch.kt)
+
+## DFS
+- [x] [Depth First Search](src/dfs/DepthFirstSearch.kt)
+
+
 ### References:
 - [Kotlin coding conventions](https://kotlinlang.org/docs/coding-conventions.html#function-names)
 - [Markdown](https://guides.github.com/features/mastering-markdown/)
