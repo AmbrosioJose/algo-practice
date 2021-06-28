@@ -25,6 +25,9 @@ Practicing Kotlin and dynamic algorithms at the same time
 ## DFS
 - [x] [Depth First Search](src/dfs/DepthFirstSearch.kt)
 
+## Linked List
+- [x] [Reverser a linked list](src/linkedList/LinkedListReversing.kt)
+
 
 ### References:
 - [Kotlin coding conventions](https://kotlinlang.org/docs/coding-conventions.html#function-names)
