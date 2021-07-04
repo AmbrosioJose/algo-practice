@@ -28,6 +28,8 @@ Practicing Kotlin and dynamic algorithms at the same time
 ## Linked List
 - [x] [Reverser a linked list](src/linkedList/LinkedListReversing.kt)
 
+## Random
+- [ ] [Sock matching](src/randomProblems/salesByMatch/task.md) (Solved in java but would like to try with Kotlin)
 
 ### References:
 - [Kotlin coding conventions](https://kotlinlang.org/docs/coding-conventions.html#function-names)
