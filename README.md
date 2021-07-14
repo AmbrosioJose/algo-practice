@@ -31,6 +31,7 @@ Practicing Kotlin and dynamic algorithms at the same time
 
 ## Random
 - [ ] [Sock matching](src/randomProblems/salesByMatch/task.md) (Solved in java but would like to try with Kotlin)
+- [ ] [Roman numeral conversions](src/romanNumeralConvertion)
 
 ## Arrays
 - [x] [Merge Intervals](src/mergeIntervals/MergeIntervals.kt)
