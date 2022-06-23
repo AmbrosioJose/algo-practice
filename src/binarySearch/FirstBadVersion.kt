@@ -1,0 +1,4 @@
+package binarySearch
+
+class FirstBadVersion {
+}
