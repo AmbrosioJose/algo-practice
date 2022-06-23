@@ -20,7 +20,7 @@ Explanation: 2 does not exist in nums so return -1
 All the integers in nums are unique.
 nums is sorted in ascending order.
 */
-class SimpleBinary {
+class RecursionBinary {
 
     fun search(nums: IntArray, target: Int): Int {
         val low = 0
@@ -42,6 +42,6 @@ class SimpleBinary {
 }
 
 fun main(){
-    println(SimpleBinary().search(intArrayOf(-1,0,3,5,9,12), -1 ))
+    println(RecursionBinary().search(intArrayOf(-1,0,3,5,9,12), -1 ))
 }
 

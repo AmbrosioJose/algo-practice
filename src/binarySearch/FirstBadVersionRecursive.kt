@@ -32,39 +32,36 @@ Constraints:
  */
 
 
-class FirstBadVersion(val badVersionNumber: Int) {
+class FirstBadVersionRecursive(val badVersionNumber: Int) {
 
     fun isBadVersion(version: Int): Boolean{
         return version == badVersionNumber || version > badVersionNumber;
     }
 
     fun firstBadVersion(n: Int) : Int {
-        var low = 1
-        var high = n
-        if(n == 1) return n
+        if(n >= 230)
+            return firstBadRecursive(1, 230)
+        return firstBadRecursive(1, n)
+    }
 
-        while(low <= high){
-            val mid = (low + high) / 2
-            if(isBadVersion(mid) && !isBadVersion(mid - 1)){
-                return mid
-            }
-            if(isBadVersion(mid)){
-                high = mid - 1
-            } else {
-                low = mid + 1
-            }
+    fun firstBadRecursive(low: Int, high: Int) : Int {
+        val mid = low + (high - low) / 2
+        if(isBadVersion(mid) && (mid == 1 || !isBadVersion(mid - 1)))
+            return mid
+
+        if(isBadVersion(mid)){
+            return firstBadRecursive(low, mid - 1)
         }
-        if(isBadVersion(high))
-            return high
-        return low
+        return firstBadRecursive(mid + 1, high)
     }
 
 
 
 }
 
+
 fun main(){
-    val errorVersionControl =  FirstBadVersion(3)
-    println(errorVersionControl.firstBadVersion(3))
+    val errorVersionControl =  FirstBadVersionRecursive(1702766719)
+    println(errorVersionControl.firstBadVersion(2126753390))
 
 }
