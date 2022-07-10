@@ -51,5 +51,33 @@ class SquaresSorting {
 }
 
 fun main(){
-    println(SquaresSorting().sortedSquares(intArrayOf(-1, 0, 4, 10)).asList())
+//    println(SquaresSorting().sortedSquares(intArrayOf(-1, 0, 4, 10)).asList())
+//    println(searchMatrix(arrayOf(intArrayOf(1,3,5,7), intArrayOf(10,11,16,20), intArrayOf(23,30,34,60)), 3))
+    println(searchMatrix(arrayOf(intArrayOf(1)), 0))
+}
+
+fun searchMatrix(matrix: Array<IntArray>, target: Int): Boolean {
+    var left = 0
+    var right = matrix.size * matrix.first().size - 1
+
+    while (left <= right){
+        val mid = left + (right - left) / 2
+        val matrixMid: Pair<Int, Int> = positionMapper(matrix, mid)
+        println("matrixMid $matrixMid, mid $mid")
+        val valueAtMid: Int = matrix[matrixMid.first][matrixMid.second]
+        if(valueAtMid == target) return true
+
+        if(valueAtMid > target){
+            right = mid - 1
+        } else {
+            left = mid + 1
+        }
+    }
+
+    return false
+}
+
+fun positionMapper(matrix: Array<IntArray>, singleLineIndex: Int): Pair<Int, Int>{
+    val rowSize = matrix.first().size
+    return Pair(singleLineIndex / rowSize, singleLineIndex % rowSize)
 }

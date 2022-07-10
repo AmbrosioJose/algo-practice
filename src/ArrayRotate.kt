@@ -50,4 +50,5 @@ fun main(){
     val list = intArrayOf(-1, -100, 3, 99)
     ArrayRotate().rotate(list, 2)
     println(list.toList())
+
 }
