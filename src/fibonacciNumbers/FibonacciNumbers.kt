@@ -21,25 +21,22 @@ fun fibonacciNumbers(num: Int): Int {
     return fibNums[num]
 }
 
-// space optimized
-fun fibOptimized(num: Int): Int{
-    if(num <= 1){
-        return num
-    }
+fun fib2(num: Int): Int {
+    if(num < 2) return num
+
     var a = 0
     var b = 1
-    var c = -1
 
-    for(i in 2 until num){
-        c = a + b
-        a = b
-        b = c
+    for(i in 2 .. num){
+        val temp = b
+        b += a
+        a = temp
     }
 
     return b
 }
 
 fun main(args: Array<String>){
-    val fibNum = 9
-    print("Fibonacci number($fibNum) " + fibOptimized(fibNum))
+    val fibNum = 5
+    println("Fibonacci number($fibNum) " + fib2(fibNum))
 }
