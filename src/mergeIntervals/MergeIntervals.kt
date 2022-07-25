@@ -22,4 +22,20 @@ class MergeIntervals {
     private fun canMergeNext(list: Array<Array<Int>>, currentPosition: Int): Boolean {
         return list[currentPosition][1] == list[currentPosition + 1][0]
     }
+
+    fun merge(intervals: Array<IntArray>): Array<IntArray> {
+        val merged = mutableListOf<IntArray>()
+        intervals.sortBy{ a -> a[0]}
+        merged.add(intervals.first())
+
+        for(i in 1 until intervals.size){
+            if(merged.last()[1] >= intervals[i][0]){
+                merged[merged.size - 1][1] = Math.max(merged.last()[1], intervals[i][1])
+            } else {
+                merged.add(intervals[i])
+            }
+        }
+
+        return merged.toTypedArray()
+    }
 }
