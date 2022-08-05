@@ -15,7 +15,7 @@ class MergeKSortedLists {
         if(lists.isEmpty()) return null
         if(lists.size == 1) return lists.first()
         val heap = PriorityQueue<ListNode>(){ a, b -> a.`val` - b.`val`}
-        lists.forEach{ node ->
+        lists.forEach{ node ->0
             if(node != null)
                 heap.add(node)
         }
